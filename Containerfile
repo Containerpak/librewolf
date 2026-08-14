@@ -7,7 +7,7 @@ ADD --checksum=sha256:8b909052e9f860a4eeccc8d205d4d1fd3ba6d20497bff10308be7531a6
 RUN chmod 0755 /tmp/LibreWolf.AppImage && \
     /tmp/LibreWolf.AppImage --appimage-extract
 
-FROM ghcr.io/containerpak/gtk:main
+FROM ghcr.io/containerpak/gtk3:main
 
 COPY --from=source /squashfs-root /opt/librewolf
 
