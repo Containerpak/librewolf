@@ -1,7 +1,7 @@
 FROM ubuntu:26.04 AS source
 
-ADD --checksum=sha256:8b909052e9f860a4eeccc8d205d4d1fd3ba6d20497bff10308be7531a6e0bdf0 \
-    https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/latest/LibreWolf.x86_64.AppImage \
+ADD --checksum=sha256:e1a3ea2b8feb8208e901bf014d5455ec19998dfa20b9bbc4fb8fa8bb0a7359cd \
+    https://dl.librewolf.net/librewolf/154.0-2/librewolf-154.0-2-linux-x86_64-appimage.AppImage \
     /tmp/LibreWolf.AppImage
 
 RUN chmod 0755 /tmp/LibreWolf.AppImage && \
