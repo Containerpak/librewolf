@@ -3,7 +3,7 @@
   "manifest_version": "3.0",
   "name": "LibreWolf",
   "description": "Privacy-focused Firefox-based web browser.",
-  "version": "154.0.1-3",
+  "version": "155.0.1-1",
   "image": "ghcr.io/containerpak/librewolf@sha256:0085cc588a0183bad05f6bc533f40e57461f20b0e1a33837f26a117c6ac3396c",
   "binaries": [
     "/usr/bin/librewolf"
