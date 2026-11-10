@@ -4,7 +4,7 @@
   "name": "LibreWolf",
   "description": "Privacy-focused Firefox-based web browser.",
   "version": "155.0.1-1",
-  "image": "ghcr.io/containerpak/librewolf@sha256:4d9acf9ea2eed3549c7d02cd1b6ff7ab1ad88f5e4c16905f2b52b4c3a668faeb",
+  "image": "ghcr.io/containerpak/librewolf@sha256:e5ce67f605627f6def531be8302149ce0183795b2ea9e033b99de2a68f53b1bd",
   "binaries": [
     "/usr/bin/librewolf"
   ],
